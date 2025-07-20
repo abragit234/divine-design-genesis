@@ -14,7 +14,7 @@ const Footer = () => {
               We believe every design should tell a story and every line of code should serve excellence.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-background/80 hover:text-primary transition-colors">
+              <a href="https://instagram.com/abrahamstudio" className="text-background/80 hover:text-primary transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
               <a href="#" className="text-background/80 hover:text-primary transition-colors">
@@ -36,7 +36,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary" />
-                <span className="text-background/80">+1 (555) 123-4567</span>
+                <span className="text-background/80">07044879145</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-primary" />
