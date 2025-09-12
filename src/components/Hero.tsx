@@ -47,8 +47,8 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed animate-fade-in delay-400">
-              Where creativity meets craftsmanship. We build exceptional digital experiences 
-              with precision, purpose, and uncompromising quality.
+              Premier web development, mobile app development, and digital design services. 
+              Expert tech solutions with cutting-edge technology for modern businesses worldwide.
             </p>
           </div>
 
@@ -56,15 +56,15 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-sm text-muted-foreground animate-fade-in delay-600">
             <div className="flex items-center space-x-2 hover:scale-110 transition-transform duration-300 cursor-pointer">
               <Palette className="h-4 w-4 text-primary animate-pulse" />
-              <span>Design Excellence</span>
+              <span>UI/UX Design Excellence</span>
             </div>
             <div className="flex items-center space-x-2 hover:scale-110 transition-transform duration-300 cursor-pointer">
               <Code className="h-4 w-4 text-primary animate-pulse delay-200" />
-              <span>Clean Development</span>
+              <span>Full Stack Development</span>
             </div>
             <div className="flex items-center space-x-2 hover:scale-110 transition-transform duration-300 cursor-pointer">
               <Sparkles className="h-4 w-4 text-primary animate-pulse delay-400" />
-              <span>Purposeful Solutions</span>
+              <span>Digital Marketing Solutions</span>
             </div>
           </div>
 
