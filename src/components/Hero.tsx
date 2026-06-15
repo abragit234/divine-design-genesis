@@ -45,7 +45,7 @@ const Hero = () => {
 
       {/* Hero content */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 pb-12">
-        <p className="font-cyber text-sm tracking-[0.3em] text-muted-foreground uppercase mb-6 animate-fade-in">
+        <p className="font-hero text-sm tracking-[0.2em] text-muted-foreground uppercase mb-6 animate-fade-in">
           Abraham Studio for Innovators
         </p>
         <h1 className="font-hero text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-semibold leading-[1.05] text-foreground animate-fade-in delay-200">
