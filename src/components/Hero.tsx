@@ -59,7 +59,7 @@ const Hero = () => {
         <div className="mt-10 flex items-center justify-center animate-fade-in delay-600">
           <Button
             size="lg"
-            className="bg-foreground text-background hover:bg-foreground/90 px-8 py-6 text-base font-cyber font-semibold rounded-full shadow-xl group"
+            className="bg-foreground text-background hover:bg-foreground/90 px-8 py-6 text-base font-hero font-semibold rounded-full shadow-xl group"
           >
             Start your project
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
