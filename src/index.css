@@ -95,8 +95,37 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Rajdhani', system-ui, sans-serif;
+  }
+  h1, h2, h3, h4, .font-cyber {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.02em;
   }
 }
+
+/* Orbital hero background */
+.hero-grid {
+  background-image:
+    linear-gradient(hsl(var(--foreground) / 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--foreground) / 0.08) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+@keyframes orbit-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes orbit-spin-rev {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+.animate-orbit { animation: orbit-spin 30s linear infinite; }
+.animate-orbit-rev { animation: orbit-spin-rev 40s linear infinite; }
+@keyframes node-pulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.4); }
+}
+.node-pulse { animation: node-pulse 2s ease-in-out infinite; }
 
 /* Custom animations */
 @keyframes fade-in {
