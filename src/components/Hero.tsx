@@ -76,7 +76,7 @@ const Hero = () => {
             { title: 'Tailored digital strategy', desc: 'Personalized branding, UI/UX, and growth strategy aligned to your business goals.' },
           ].map((f) => (
             <div key={f.title} className="rounded-2xl border border-foreground/15 bg-card/60 backdrop-blur p-7 hover:border-foreground/40 hover:-translate-y-1 transition-all duration-300">
-              <h3 className="font-cyber text-xl font-semibold text-foreground mb-3">{f.title}</h3>
+              <h3 className="font-hero text-xl font-semibold text-foreground mb-3">{f.title}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">{f.desc}</p>
             </div>
           ))}
