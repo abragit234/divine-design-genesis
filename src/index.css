@@ -102,6 +102,12 @@ All colors MUST be HSL.
     font-weight: 600;
     letter-spacing: 0.02em;
   }
+
+  .font-hero {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
 }
 
 /* Orbital hero background */
