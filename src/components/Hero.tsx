@@ -48,7 +48,7 @@ const Hero = () => {
         <p className="font-cyber text-sm tracking-[0.3em] text-muted-foreground uppercase mb-6 animate-fade-in">
           Abraham Studio for Innovators
         </p>
-        <h1 className="font-cyber text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-semibold leading-[1.05] text-foreground animate-fade-in delay-200">
+        <h1 className="font-hero text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-semibold leading-[1.05] text-foreground animate-fade-in delay-200">
           Build your future <br className="hidden sm:block" /> with Abraham Studio
         </h1>
         <p className="mt-8 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-in delay-400">
