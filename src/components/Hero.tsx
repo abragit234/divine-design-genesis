@@ -45,10 +45,10 @@ const Hero = () => {
 
       {/* Hero content */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 pb-12">
-        <p className="font-cyber text-sm tracking-[0.3em] text-muted-foreground uppercase mb-6 animate-fade-in">
+        <p className="font-hero text-sm tracking-[0.2em] text-muted-foreground uppercase mb-6 animate-fade-in">
           Abraham Studio for Innovators
         </p>
-        <h1 className="font-cyber text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-semibold leading-[1.05] text-foreground animate-fade-in delay-200">
+        <h1 className="font-hero text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-semibold leading-[1.05] text-foreground animate-fade-in delay-200">
           Build your future <br className="hidden sm:block" /> with Abraham Studio
         </h1>
         <p className="mt-8 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-in delay-400">
@@ -59,7 +59,7 @@ const Hero = () => {
         <div className="mt-10 flex items-center justify-center animate-fade-in delay-600">
           <Button
             size="lg"
-            className="bg-foreground text-background hover:bg-foreground/90 px-8 py-6 text-base font-cyber font-semibold rounded-full shadow-xl group"
+            className="bg-foreground text-background hover:bg-foreground/90 px-8 py-6 text-base font-hero font-semibold rounded-full shadow-xl group"
           >
             Start your project
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -76,7 +76,7 @@ const Hero = () => {
             { title: 'Tailored digital strategy', desc: 'Personalized branding, UI/UX, and growth strategy aligned to your business goals.' },
           ].map((f) => (
             <div key={f.title} className="rounded-2xl border border-foreground/15 bg-card/60 backdrop-blur p-7 hover:border-foreground/40 hover:-translate-y-1 transition-all duration-300">
-              <h3 className="font-cyber text-xl font-semibold text-foreground mb-3">{f.title}</h3>
+              <h3 className="font-hero text-xl font-semibold text-foreground mb-3">{f.title}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">{f.desc}</p>
             </div>
           ))}
