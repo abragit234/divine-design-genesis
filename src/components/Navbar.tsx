@@ -1,7 +1,8 @@
 
 import { useState } from 'react';
-import { Menu, X, Code } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import logoAsset from '@/assets/abs_logo.jpg.asset.json';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
